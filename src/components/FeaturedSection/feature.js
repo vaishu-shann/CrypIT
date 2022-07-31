@@ -1,7 +1,9 @@
 import React from 'react';
 import "./feature.css"
-import FeatureImg1 from "../../assests/images/feature-img1.png"
-import FeatureImg2 from "../../assests/images/feature-img2.png"
+import FeatureImg1 from "../../assests/images/fiat-crypto4.png"
+import FeatureImg2 from "../../assests/images/flexible.png"
+import FeatureImg3 from "../../assests/images/bank.png"
+import FeatureImg4 from "../../assests/images/earn2.png"
 
 function Feature(props) {
     return (
@@ -9,9 +11,9 @@ function Feature(props) {
             <h1 className='feature-head'> Features </h1>
             <div className='feature-cont'>
                 <div className='cont-1'>
-                    <img className="feature-img1" src={FeatureImg1} alt="img1"/>
+                    <img src={FeatureImg1} alt="img1" width={390}/>
                     <div className='detail1'>
-                        <h1 className='detail-head'>Fiat to Crypto</h1>
+                        <h1 className='detail-head'>Fiat &#60; &#62; Crypto</h1>
                         <p className='detail-para'>Sit and relax between your Fiat &amp; Crypto, because CrypIT made Fiat to Crypto transfers easy, flexible &amp; more secured</p>
                     </div>
                 </div>
@@ -26,10 +28,10 @@ function Feature(props) {
                             </ul>
                             <p className='detail-para'> </p>
                     </div>
-                    <img className="feature-img2" src={FeatureImg2} alt="img1" />
+                    <img  src={FeatureImg2} alt="img1" width={350} height={305}/>
                 </div>
                 <div className='cont-1'>
-                    <img className="feature-img1" src={FeatureImg1} alt="img1"/>
+                    <img src={FeatureImg3} alt="img1" width={400}/>
                     <div className='detail1'>
                         <h1 className='detail-head'>Super-Easy</h1>
                         <ul className='detail-list'>
@@ -51,7 +53,7 @@ function Feature(props) {
                             </ul>
                             <p className='detail-para'> </p>
                     </div>
-                    <img className="feature-img2" src={FeatureImg2} alt="img1" />
+                    <img  src={FeatureImg4} alt="img1" width={300}/>
                 </div>
             </div>
         </div>

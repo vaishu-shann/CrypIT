@@ -28,7 +28,7 @@
     border: 1px solid rgb(92, 91, 89);
     border-radius: 8px;
     text-align: left;
-    width:27%;
+    width:75%;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,12 @@
 .coin{
     width: 100px;
 }
-
+.react-multi-carousel-track{
+    margin-bottom:30px !important ;
+}
+.react-multi-carousel-dot-list{
+    bottom: -12px !important;
+}
 @media (min-width:350px) and (max-width:1024px){
     .test-cont{
         display: flex;

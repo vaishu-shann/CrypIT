@@ -18,17 +18,12 @@ function Footer(props) {
     <h2 className='logo-footer'>CrypIT</h2>
 
 <div className='section-footer'>
-    <ul className='footer-list'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Feature</li>
-        <li>Testimonial</li>
-    </ul>
+  
 </div>
 
 <div className='mail'>
 
-<div  className='mail-footer'>crypit@gmail.com</div>
+<div  className='mail-footer'>info@crypit.com</div>
 <div className='social-links'> 
             
             <IconContext.Provider value={{ color: "white", size:"2em",className: "global-class-name" }}>

@@ -35,8 +35,10 @@ p{
 }
 .hero-img{
     display: block;
-    margin: auto 30px;
-    width: 450px;
+    /* margin: auto 30px; */
+    width: 500px;
+    height: 450px;
+
 }
 
 @media (min-width:350px) and (max-width:1024px) {
