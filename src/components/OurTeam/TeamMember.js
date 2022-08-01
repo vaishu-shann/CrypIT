@@ -20,6 +20,7 @@ function TeamMember(props) {
                     <blockquote>
                    <p>'Little Bit Of Description About The teammate Like Size designation And role.'</p>
                     </blockquote>
+                 
                     <IconContext.Provider value={{ color: "greenyellow", className: "global-class-name",size:"22px" }} >
             <div className='socials' style={{padding:"6px 0", display:"block",margin:"1px auto" ,cursor:"pointer"}}>
               <FaLinkedinIn/>
