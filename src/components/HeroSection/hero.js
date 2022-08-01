@@ -19,7 +19,7 @@ function HeroSection(props) {
             </div>
 
             <div className='right-cont'>
-                <img className='hero-img' src={BannerImage} alt="hero Image"/>
+                <img className='hero-img' src={BannerImage} alt="hero "/>
             </div>
         </div>
        

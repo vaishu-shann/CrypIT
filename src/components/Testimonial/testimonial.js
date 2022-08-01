@@ -1,6 +1,5 @@
 import React from "react";
 import "./testimonial.css";
-import Aave from "../../assests/images/aavee.png";
 import Eth from "../../assests/images/eth.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -112,6 +111,4 @@ function Testimonial(props) {
 }
 
 export default Testimonial;
-{
-  /* */
-}
+

@@ -13,7 +13,7 @@ function TeamMember(props) {
    <div className="team">
         <div className="member">
             <div className="card mb-3" style={{width: "20rem"}}>
-                <img className="card-img-top" src={Profile1} height="380" alt="Card image cap"/>
+                <img className="card-img-top" src={Profile1} height="380" alt="Card cap"/>
                 <div className="product-detail">
                     <h4 className="card-title heading text-center">TeamMate1</h4>
                     <span className="subheading">Designation</span>
@@ -30,7 +30,7 @@ function TeamMember(props) {
         </div>
         <div className="member">
                 <div className="card mb-3" style={{width: "20rem"}}>
-                        <img className="card-img-top" src={Profile2}  height="380" alt="Card image cap"/>
+                        <img className="card-img-top" src={Profile2}  height="380" alt="Card cap"/>
                         <div className="product-detail">
                             <h4 className="card-title heading text-center">TeamMate2</h4>
                             <span className="subheading">Designation</span>
@@ -48,7 +48,7 @@ function TeamMember(props) {
         </div>
         <div className="member">
             <div className="card mb-3" style={{width: "20rem"}}>
-                <img className="card-img-top"src={Profile3}  height="380"  alt="Card image cap"/>
+                <img className="card-img-top"src={Profile3}  height="380"  alt="Card  cap"/>
                 <div className="product-detail">
                     <h4 className="card-title heading text-center">TeamMate3</h4>
                     <span className="subheading">Designation</span>

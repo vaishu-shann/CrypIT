@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./navbar.css";
 import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
