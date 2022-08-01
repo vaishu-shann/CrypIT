@@ -3,7 +3,7 @@ import "./hero.css"
 import AppleStore from "../../assests/images/app-store-light.svg"
 import GoogleStore from "../../assests/images/google-play-light.svg"
 import BannerImage from "../../assests/images/hero-img4.png"
-import FadeIn from 'react-fade-in';
+
 
 function HeroSection(props) {
     return (
