@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css"
-import About1 from "../../assests/images/blog3.png"
+import About1 from "../../assests/images/wallet.png"
 import About2 from "../../assests/images/about3.png"
 import About3 from "../../assests/images/on-ramp.png"
 import About4 from "../../assests/images/blog4.png"
