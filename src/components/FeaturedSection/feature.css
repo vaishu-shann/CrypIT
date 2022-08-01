@@ -31,9 +31,10 @@
     margin: auto 20px auto 70px;
 }
 .detail-list{
-    padding: 0;
+    padding: 0 10px;
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
+    text-align: left;
 }
 .detail2{
     display: block;

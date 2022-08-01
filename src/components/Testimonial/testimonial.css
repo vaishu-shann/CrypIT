@@ -38,7 +38,7 @@
 .box-detail{
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
-    margin: 0 0 20px;
+    margin: 0 0 0px;
     line-height: 120%;
     color: #fff;
 }
@@ -50,6 +50,10 @@
 .founder{
     color: #fff;
     text-align: left;
+    margin: auto;
+}
+.stars{
+    text-align: center;
     margin: auto;
 }
 .coin{
@@ -73,7 +77,12 @@
     .test-box{
         padding: 35px 20px;
         width: 80%;
-        height: 150px;
+        height: 275px;
         align-items:flex-start;
+    }
+    .react-multi-carousel-dot-list{
+        /* display: none !important; */
+        display: flex;
+        flex-direction: row !important;
     }
 }
