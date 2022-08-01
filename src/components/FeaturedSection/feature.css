@@ -31,10 +31,17 @@
     margin: auto 20px auto 70px;
 }
 .detail-list{
-    /* padding: 0 10px; */
+  
+    padding-inline-start: 0;
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
     text-align: left;
+    /* margin: auto 10px; */
+   
+    line-height: 140%;
+}
+.detail-list li{
+    padding: 5px 0;
 }
 .detail2{
     display: block;
@@ -46,7 +53,10 @@
     justify-content: center;
     align-items: center;
 }
-
+.detail-para{
+    text-align: left;
+    padding-left: 15px;
+}
 @media (min-width:350px) and (max-width:1024px) {
     .cont-1{
         display: flex;
@@ -61,6 +71,9 @@
     .detail1,.detail2{
         margin: auto;
         text-align: center;
+    }
+    .detail-list{
+        padding: 0 40px;
     }
     .feature-img1{
         height: 350px;

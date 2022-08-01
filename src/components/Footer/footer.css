@@ -78,7 +78,7 @@ flex-direction: column-reverse;
     ul,.mail{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
     }
     .contact-no{
         margin:50px auto;
