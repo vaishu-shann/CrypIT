@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import {HiOutlineChevronLeft} from "react-icons/hi"
 import {Link} from 'react-scroll'
-
+import Logo from "../../assests/images/logo3.0.png"
 function Navbar() {
   const [click, setClick] = React.useState(false);
   const handleClick = () => setClick(!click);
@@ -64,7 +64,7 @@ function Navbar() {
                   </Link>
                   </>
                   :""}
-                 CrypIT
+               <img src={Logo} alt="logo-img" width={175}/>
                 </div>
               </Link>
 
