@@ -61,6 +61,12 @@
     border-radius: 50%;
     margin-right: 30px;
 }
+.box-detail-head{
+    font-weight: 600;
+    font-size: 26px;
+    color: #fff;
+    margin: 0 0 10px;
+}
 .react-multi-carousel-track{
     margin-bottom:30px !important ;
 }

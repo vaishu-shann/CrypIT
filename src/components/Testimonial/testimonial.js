@@ -32,60 +32,65 @@ function Testimonial(props) {
 
       <Carousel showDots={true} responsive={responsive} >
         <div className="test-box">
+        <p className="box-detail-head">"Save a lot of time."</p>
           <p className="box-detail">
-          “You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save."
+          “You made it so simple. My new site is so much faster and easier to work with than my old site."
           </p>
           <p className='stars'>⭐⭐⭐⭐⭐</p>
           <div className="profile">
             <img className="coin" src={Avatar1} alt="aave" />
             <p className="founder">
-              Vitalik Buterin <br />
-              Co-founder, Ethereum
+            Arpit Shukla <br />
+            @aRpee
             </p>
           </div>
         </div>
         <div className="test-box">
+        <p className="box-detail-head">"Flexible to use."</p>
           <p className="box-detail">
-          “I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage. I never have any problem at all."
+          “I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to work with you."
 
           </p>
           <p className='stars'>⭐⭐⭐⭐</p>
           <div className="profile">
             <img className="coin" src={Avatar2} alt="aave" />
             <p className="founder">
-              Vitalik Buterin <br />
-              Co-founder, Ethereum
+              Sakshi Gupta <br />
+              @sakshi
             </p>
           </div>
         </div>
         <div className="test-box">
+        <p className="box-detail-head">"Super easy transaction"</p>
           <p className="box-detail">
-          “You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save."
+          “You made it so simple. My new site is so much faster and easier to work with than my old site. "
 
           </p>
           <p className='stars'>⭐⭐⭐⭐⭐</p>
           <div className="profile">
             <img className="coin" src={Avatar3} alt="aave" />
             <p className="founder">
-              Vitalik Buterin <br />
-              Co-founder, Ethereum
+              Arpit Agarwal <br />
+             @arpit30
             </p>
           </div>
         </div>
         <div className="test-box">
+          <p className="box-detail-head">"Easy to use."</p>
           <p className="box-detail">
-          “I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage. I never have any problem at all."
+          
+"I feel very comfortable using the app as it is like any other payments app but just for crypto. It is really smooth and navigable."
           </p>
           <p className='stars'>⭐⭐⭐⭐⭐</p>
           <div className="profile">
             <img className="coin" src={Avatar1} alt="aave" />
             <p className="founder">
-              Vitalik Buterin <br />
-              Co-founder, Ethereum
+             Hrithik <br />
+              @hrikithi
             </p>
           </div>
         </div>
-        <div className="test-box">
+        {/* <div className="test-box">
           <p className="box-detail">
           “Wow. I just updated my site and it was SO SIMPLE. I am blown away. You guys truly kick ass. Thanks for being so awesome. High fives!”
           </p>
@@ -110,7 +115,7 @@ function Testimonial(props) {
               Co-founder, Ethereum
             </p>
           </div>
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );
