@@ -5,6 +5,7 @@ import {BsTelegram} from "react-icons/bs"
 import {AiFillTwitterCircle} from "react-icons/ai"
 import {SiYoutubemusic} from "react-icons/si"
 import { IconContext } from "react-icons";
+import Logo from "../../assests/images/logo3.0.png"
 
 function Footer(props) {
     return (
@@ -15,7 +16,7 @@ function Footer(props) {
       <button className='btn-submit' onClick={() => window.location = 'mailto:muthucse33@gmail.com'}>Send</button>
     </div>
     <div className='footer-detail'>
-    <h2 className='logo-footer'>CrypIT</h2>
+    <img className='logo-footer' src={Logo} alt="logo" width={175}/>
 
 <div className='section-footer'>
   

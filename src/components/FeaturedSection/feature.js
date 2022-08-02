@@ -1,6 +1,6 @@
 import React from 'react';
 import "./feature.css"
-import FeatureImg1 from "../../assests/images/fiat-crypto4.png"
+import FeatureImg1 from "../../assests/images/f-c.png"
 import FeatureImg2 from "../../assests/images/flexible.png"
 import FeatureImg3 from "../../assests/images/bank1.0.png"
 import FeatureImg4 from "../../assests/images/earn2.png"

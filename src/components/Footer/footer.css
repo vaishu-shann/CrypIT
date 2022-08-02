@@ -22,7 +22,7 @@
     border: none;
     border-radius: 8px;
     padding: 10px;  
-    background: aqua;
+    background: #edd502;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
@@ -47,6 +47,8 @@ display: flex;
     font-family: 'Barlow', sans-serif;
     font-size: 40px;
     font-weight: 800;
+    display: block;
+    margin: 25px auto 0;
 }
 .mail-footer{
     font-family: 'Barlow', sans-serif;

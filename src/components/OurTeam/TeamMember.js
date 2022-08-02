@@ -1,10 +1,9 @@
 import React from 'react';
 import "./team.css"
-import {FaLinkedinIn} from 'react-icons/fa';
 import { IconContext } from "react-icons";
-import Profile1 from "../../assests/images/team-mate1.png"
-import Profile2 from "../../assests/images/team-mate2.png"
-import Profile3 from "../../assests/images/team-mate3.png"
+import Profile1 from "../../assests/images/alwyn.png"
+import Profile2 from "../../assests/images/muthu.png"
+import Profile3 from "../../assests/images/vaishu.png"
 
 
 function TeamMember(props) {
@@ -13,7 +12,7 @@ function TeamMember(props) {
    <div className="team">
    <div className="member">
             <div className="card mb-3" style={{width: "22rem"}}>
-                <img className="card-img-top"src={Profile3}   alt="Card  cap"/>
+                <img className="card-img-top"src={Profile1}   alt="Card  cap"/>
                 <div className="product-detail">
                     <h4 className="card-title heading text-center">Allwyn Leo</h4>
                     <span className="subheading">Founding Team</span>
@@ -30,7 +29,7 @@ function TeamMember(props) {
         </div>
         <div className="member">
             <div className="card mb-3" style={{width: "22rem"}}>
-                <img className="card-img-top" src={Profile1} alt="Card cap"/>
+                <img className="card-img-top" src={Profile2} alt="Card cap"/>
                 <div className="product-detail">
                     <h4 className="card-title heading text-center">Muthu Thavamani</h4>
                     <span className="subheading">Founding Team</span>
@@ -49,7 +48,7 @@ function TeamMember(props) {
         
         <div className="member">
                 <div className="card mb-3" style={{width: "22rem"}}>
-                        <img className="card-img-top" src={Profile2}   alt="Card cap"/>
+                        <img className="card-img-top" src={Profile3}   alt="Card cap"/>
                         <div className="product-detail">
                             <h4 className="card-title heading text-center">Vaishnavi</h4>
                             <span className="subheading">Founding Team</span>
