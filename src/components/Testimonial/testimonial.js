@@ -34,7 +34,7 @@ function Testimonial(props) {
         <div className="test-box">
         <p className="box-detail-head">"Save a lot of time."</p>
           <p className="box-detail">
-          “You made it so simple. My new site is so much faster and easier to work with than my old site."
+          “You made it so simple. I can transfer crypto is so much faster , easier and trust-worthy way."
           </p>
           <p className='stars'>⭐⭐⭐⭐⭐</p>
           <div className="profile">
@@ -63,8 +63,7 @@ function Testimonial(props) {
         <div className="test-box">
         <p className="box-detail-head">"Super easy transaction"</p>
           <p className="box-detail">
-          “You made it so simple. My new site is so much faster and easier to work with than my old site. "
-
+          "I feel very comfortable using the app as it is like any other payments app but just for crypto. It is really smooth and navigable."
           </p>
           <p className='stars'>⭐⭐⭐⭐⭐</p>
           <div className="profile">
@@ -78,8 +77,7 @@ function Testimonial(props) {
         <div className="test-box">
           <p className="box-detail-head">"Easy to use."</p>
           <p className="box-detail">
-          
-"I feel very comfortable using the app as it is like any other payments app but just for crypto. It is really smooth and navigable."
+          “You made it so simple. I can transfer crypto is so much faster , easier and trust-worthy way."
           </p>
           <p className='stars'>⭐⭐⭐⭐⭐</p>
           <div className="profile">
